@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: maino76/argocd-app:replaceImageTag
+        image: maino76/argocd-app:1
         ports:
         - containerPort: 8080
